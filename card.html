@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-style: italic;
+        }
+        .col{
+            width: 250px;
+            text-align: center;
+            box-shadow: 3px 3px 10px black;
+            padding: 20px ;
+            line-height: 25px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <h1> Electronics Iteam</h1>
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <img src="https://cdn.pixabay.com/photo/2020/04/19/16/33/headphones-5064411_1280.jpg" alt="" width="100%" >
+                <h2>Headphone</h2>
+                <p>This is headphone</p>
+                <p><del>1500</del>1300 rs.</p>
+                <button style="background-color: beige; padding: 10px;">Add To Cart</button>
+            </div>
+              <div class="col">
+                <img src="https://www.todoandroid.es/wp-content/uploads/2023/07/Mejores-moviles-Samsung-y-sus-principales-diferencias.png" alt="" width="100%" >
+                <h2>Phone</h2>
+                <p>This is phone</p>
+                <p><del>15000</del>13000 rs.</p>
+                <button style="background-color: beige; padding: 10px;">Add To Cart</button>
+            </div>
+             <div class="col">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.fqsT5ugq_gKi3JC0Es2TjgHaFj?pid=Api&P=0&h=180" alt="" width="100%" >
+                <h2>T.V</h2>
+                <p>This is T.V</p>
+                <p><del>50000</del>45000 rs.</p>
+                <button style="background-color: beige; padding: 10px;">Add To Cart</button>
+            </div>
+            
+             <div class="col">
+                <img src="https://m.media-amazon.com/images/I/71XwLX0ySeL.jpg" alt="" width="100%" >
+                <h2>Laptop</h2>
+                <p>This is Laptop</p>
+                <p><del>150000</del>100000</p>
+                <button style="background-color: beige; padding: 10px;">Add To Cart</button>
+            </div>
+        </div>
+        <br>
+    <h1>Watch collection for women</h1><br>
+        <div class="row">
+            <div class="col">
+                <img src="data:image/jpeg;base64,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" alt="" width="100%">
+                <h2>Rolex Watch</h2>
+                <p>A watch is a portable timepiece, worn on the wrist or carried in a pocket</p>
+                <p><del>50000</del> 45000rp</p>
+                <button style="background-color: rgb(238, 236, 103); padding: 10px;">Add to Cart</button>
+            </div>
+            <div class="col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-M7pORbTJD3KczBCdVmSsQ37rbak_dw1Ww&s" alt="" width="100%">
+                <h2>Watch</h2>
+                <p>A watch is a portable timepiece, worn on the wrist or carried in a pocket</p>
+                <p><del>50000</del> 45000rp</p>
+                <button style="background-color: rgb(238, 236, 103);padding: 10px;">Add to Cart</button>
+            </div>
+            <div class="col">
+                <img src="https://i.pinimg.com/736x/d7/03/8b/d7038b199a88b36fdd5303afc0bf7ec9.jpg" alt="" width="100%">
+                <h2>Apple Watch</h2>
+                <p>A watch is a portable timepiece, worn on the wrist or carried in a pocket</p>
+                <p><del>100000</del> 90000rp</p>
+                <button style="background-color: rgb(238, 236, 103);padding: 10px;">Add to Cart</button>
+            </div>
+            <div class="col">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ5Q-SVhnPXTjop3SDE2dWipztnJ7D89RIVg&s" alt="" width="100%">
+                <h2>Fosil Watch</h2>
+                <p>A watch is a portable timepiece, worn on the wrist or carried in a pocket</p>
+                <p><del>50000</del> 45000rp</p>
+                <button style="background-color: rgb(238, 236, 103);padding: 10px;">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
